@@ -1,0 +1,64 @@
+/* Center the content and style the progress bar */
+.progress-overview {
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.progress-stats {
+  margin-top: 20px;
+}
+
+.streak,
+.goal {
+  margin: 15px 0;
+}
+
+.progress-circle {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+}
+
+.progress-circle svg {
+  transform: rotate(-90deg);
+}
+
+.progress-percentage {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+h3,
+h4 {
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.streak h4,
+.goal h4 {
+  font-size: 1.1rem;
+}
+
+.progress-bar {
+  height: 30px;
+  background-color: lightgray;
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress-bar::after {
+  content: "";
+  background-color: green;
+  height: 100%;
+  border-radius: 5px;
+}
